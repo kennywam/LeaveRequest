@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "leave-request-client-side-solution",
+    "id": "11b89286-6f35-4003-a2a5-cbfb8b78750d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "LeaveRequest description"
+      },
+      "longDescription": {
+        "default": "LeaveRequest description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "leave-request Feature",
+        "description": "The feature that activates elements of the leave-request solution.",
+        "id": "cf031074-fd29-484d-9fd2-7e1d7cb6b925",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/leave-request.sppkg"
+  }
+}
